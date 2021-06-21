@@ -1,5 +1,5 @@
 # Similarity Learning based Clustering (Work in Progress)
-The main objective is to build one program to automatically train similarity learning based metrics and apply clustering algorithms with specified metrics to predict clusters.
+The main objective is to build one program to automatically train similarity learning based metrics and apply clustering algorithms with trained metrics to predict clusters.
 
 # Prerequisites
 -  The project is developed in a Python environment. 
