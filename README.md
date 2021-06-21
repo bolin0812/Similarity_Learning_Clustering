@@ -6,7 +6,7 @@ The main objective is to build one program to automatically train similarity lea
    - Get the Anaconda Navigator for Python 3.7.3 and up: https://www.anaconda.com/download/
 - Create virtual environment to download required libraries. 
    - If you want to create your python's virtual environment, please install and configure virtualenv. 
-     You could install virtualenv and create virtual environment `virtualenv venv`. To activate your virtual environment on Windows,  `C:\Users\SomeUser\python_training> venv\Scripts\activate.bat`.
+     You could install virtualenv and create virtual environment `virtualenv venv`. To activate your virtual environment on Windows, run `folder\venv\Scripts\activate.bat`.
      For more information, please check following [link1](https://docs.python-guide.org/dev/virtualenvs/) and [link2](https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/).
    - If you want to use Anaconda Navigator to create your conda environment. Please refer the following [link](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/).
 - The project requires number of installed libraries such as scikit-learn and xgboost. 
@@ -15,7 +15,7 @@ The main objective is to build one program to automatically train similarity lea
 
 ## Training Models and Optimal Epsilons
 
-Afer installing required python packages, make sure you are in the directory (`C:\Users\Some_Folder\python_training\`) that contains main pipeline `reconcile_pipeline.py`. 
+Afer installing required python packages, make sure you are in the directory (`folder\python_training\`) that contains main pipeline `reconcile_pipeline.py`. 
 
 To run the program with default arguments, you could simple run `python reconcile_pipeline.py` in Command Prompt Interface.
 
@@ -51,7 +51,7 @@ Please find explinations of configuration parameters [here](https://wiki.bnc.ca/
 
 ## Unit Tests
 
-Open Command Prompt in the directory of tests folder (`C:\Users\SomeUser\python_training\tests\`),  you will find python files `datetime_test.py` and `features_test.py` as well as testing transactions in `test_transactions_data.csv`. 
+Open Command Prompt in the directory of tests folder (`folder\python_training\unittests\`),  you will find python files `datetime_test.py` and `features_test.py` as well as testing transactions in `test_transactions_data.csv`. 
 
 `python datetime_test.py` help check if the outputs of built-in datetime function is same with expected.
 `python features_test.py` will test each function in feature engineering pipeline and test if final comparison vectors are same with expected vectors.
