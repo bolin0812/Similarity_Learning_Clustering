@@ -1,5 +1,6 @@
 # Similarity Learning based Clustering
-The main objective is to build one program to automatically train similarity learning based metrics and apply clustering algorithms with specified metrics to predict clusters.
+**(Work in Progress)**
+The main objective is to build one program to automatically train similarity learning based metrics with entities and apply clustering algorithms with specified metrics to predict clusters.
 
 
 ![SimilarityLearnClusters](https://user-images.githubusercontent.com/61123728/122810863-d7f83b00-d29d-11eb-96ca-acc2ccf352f2.png)
@@ -52,7 +53,7 @@ User can input different commands for different purposes.
     ├── README.md              <-- The top-level README for developers using this project.
     │
     │
-    ├── datasets               <-- Transactions dataset that contains Process and Activity.
+    ├── datasets               <-- One dataset contains  entities and related group_name.
     │
     │
     ├── requirements.txt       <-- The requirements file for reproducing the analysis environment.
@@ -62,14 +63,14 @@ User can input different commands for different purposes.
     │   │
     │   ├── training.py        <-- Main pipeline scrips to create serilized models and optimal epsilons.
     │   │
-    │   ├── data               <-- Scripts to shuffle and make datasets based on Type-Process-Activity.
+    │   ├── data               <-- Scripts to shuffle and make entities based on group_name.
     │   │   ├── data_preprocess.py
     │   │   ├── data_loader.py
     │   │   ├── data_process.py
     │   │   ├── data_shuffle_select.py
     │   │   └── train_valid_test.py
     │   │
-    │   ├── features           <-- Scripts to turn raw data into pairwise comparisons for modeling.
+    │   ├── features           <-- Scripts to turn raw entities into pairwise comparisons for modeling.
     │   │   └── pair_compare.py
     │   │
     │   ├── modeling           <-- Scripts to train models and predict scores of pairwise comparisons.               
@@ -86,7 +87,7 @@ User can input different commands for different purposes.
     ├── config.yaml            <-- Configuration parameters used for training and predictive pipelines.
     │
     │
-    ├── pipeline.py            <-- Scripts of one program that process transactions for exploration, training and prediction.
+    ├── pipeline.py            <-- Scripts of one program process entities for exploration, training and prediction.
     │
     │
     ├── results                <-- The folder contains saved models, feature importances, optimal epsilons, clustering perforamces, etc. 
