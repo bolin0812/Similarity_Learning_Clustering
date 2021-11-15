@@ -1,6 +1,6 @@
 # Similarity Learning based Clustering
 **(Work in Progress)**
-The main objective is to build one program to automatically train similarity learning based metrics with entities and apply clustering algorithms with specified metrics to predict clusters.
+The main objective is to build one program to automatically train similarity learning based metrics with input entities and apply clustering algorithms with specified metrics to predict clusters.
 
 
 ![SimilarityLearnClusters](https://user-images.githubusercontent.com/61123728/122810863-d7f83b00-d29d-11eb-96ca-acc2ccf352f2.png)
